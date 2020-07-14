@@ -41,9 +41,9 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-function-core:3.1.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.3.0-M1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.4.0-SNAPSHOT" level="project" />
@@ -62,9 +62,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.cloud:spring-cloud-function-web:3.1.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-json:2.4.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.4.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.36" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish:jakarta.el:3.0.3" level="project" />

@@ -1,5 +1,5 @@
 {
-  "scriptFile" : "../function-sample-azure-2.0.0.RELEASE.jar",
+  "scriptFile" : "..\\function-sample-azure-2.0.0.RELEASE.jar",
   "entryPoint" : "example.UppercaseHandler.execute2",
   "bindings" : [ {
     "type" : "httpTrigger",
