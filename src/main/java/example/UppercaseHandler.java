@@ -37,12 +37,6 @@ public class UppercaseHandler extends AzureSpringBootRequestHandler<String, Stri
 			HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
 		ExecutionContext context) {
 		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
-		context.getLogger().warning(context.getFunctionName() + " upercasing");
 		context.getLogger().warning(context.getInvocationId());
 		return handleRequest(request.getBody().get(), context);
 	}
@@ -51,12 +45,6 @@ public class UppercaseHandler extends AzureSpringBootRequestHandler<String, Stri
 	public String execute2(@HttpTrigger(name = "req2", methods = {HttpMethod.GET,
 		HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
 						  ExecutionContext context) {
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
-		context.getLogger().warning(context.getFunctionName() + " lowercasing");
 		context.getLogger().warning(context.getFunctionName() + " lowercasing");
 		context.getLogger().warning(context.getInvocationId());
 		return handleRequest(request.getBody().get(), context);

@@ -2,3 +2,5 @@ extensions.csproj
 obj/
 lib/
 .idea/
+target/
+*.class
