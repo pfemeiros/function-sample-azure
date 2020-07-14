@@ -16,35 +16,27 @@
 
 package example;
 
-import java.util.function.Function;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.microsoft.azure.functions.ExecutionContext;
+import java.util.function.Function;
 
 @SpringBootApplication
 public class Config {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		SpringApplication.run(Config.class, args);
 	}
 
 	@Bean
-	public Function<String, String> uppercase(ExecutionContext context) {
-		return value -> {
-			context.getLogger().info("Uppercasing " + value);
-			return value.toUpperCase();
-		};
+	public Function<String, String> uppercase() {
+		return String::toUpperCase;
 	}
 
 	@Bean
-	public Function<String, String> lowercase(ExecutionContext context) {
-		return value -> {
-			context.getLogger().info("Lowercasing " + value);
-			return value.toLowerCase();
-		};
+	public Function<String, String> lowercase() {
+		return String::toLowerCase;
 	}
 
 }

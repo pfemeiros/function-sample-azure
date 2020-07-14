@@ -1,3 +1,3 @@
-example/UppercaseHandler.class
-example/Contato.class
-example/Config.class
+example\Config.class
+example\UppercaseHandler.class
+example\Contato.class
